@@ -1,0 +1,64 @@
+* {
+    background-color:skyblue;
+}
+
+.picture1 {
+    width: 800px;
+    height: 500px;
+    border-radius: 40px;
+    opacity: 1;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.word {
+    font-family: Engravers MT;
+    color: red;
+    width: 600px;
+    border-radius: 20px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.luxmundi {
+    color: red;
+    font-size: 30px;
+    font-family: Engravers MT;
+}
+
+.p {
+    color: navy;
+    font-family: Times New Roman;
+    font-size: 30px;
+}
+
+
+.My_experience {
+    color: red;
+    font-size: 30px;
+    font-family: Engravers MT;
+}
+
+.experience {
+    color: navy;
+    font-family: Times New Roman;
+    font-size: 30px;
+}
